@@ -1,6 +1,6 @@
 # npmtest-resize-crop
 
-#### test coverage for  [resize-crop (v0.0.3)](https://github.com/traviswimer/resize-crop.js)  [![npm package](https://img.shields.io/npm/v/npmtest-resize-crop.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-resize-crop) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-resize-crop.svg)](https://travis-ci.org/npmtest/node-npmtest-resize-crop)
+#### basic test coverage for  [resize-crop (v0.0.3)](https://github.com/traviswimer/resize-crop.js)  [![npm package](https://img.shields.io/npm/v/npmtest-resize-crop.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-resize-crop) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-resize-crop.svg)](https://travis-ci.org/npmtest/node-npmtest-resize-crop)
 
 #### Make images a specific size without distorting the aspect ratio. Resizes as close as possible and crops the rest.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-resize-crop/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-resize-crop/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-resize-crop/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-resize-crop/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-resize-crop/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-resize-crop/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-resize-crop/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-resize-crop/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-resize-crop/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-resize-crop/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-resize-crop/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-resize-crop/build/coverage.html/index.html)
 
@@ -97,7 +97,8 @@
         "ci": "grunt test --stack",
         "test": "grunt test"
     },
-    "version": "0.0.3"
+    "version": "0.0.3",
+    "bin": {}
 }
 ```
 
